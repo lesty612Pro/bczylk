@@ -1,0 +1,121 @@
+/**
+ * @author: Lesty
+ * @code-date: 2015.7.26
+ * @introduction: 图片管理器的css文件
+ */
+body {
+	background-color: #F5F5F5;
+}
+
+/* 头部logo区 */
+.header-logo {
+	position: relative;
+	top: 0;
+	left: 0;
+
+	width: 100vw;
+	height: 10vh;
+
+	font-size: 2vw;
+	color: #808080;
+	text-align: center;
+}
+
+.header-logo>strong {
+	margin-top: 3vh;
+
+	display: inline-block;
+}
+
+/* logo下划线 */
+.logo-bottom-line{
+	margin: 0.6vh auto;
+
+	width: 45vw;
+	height: 0.2vh;
+
+	background-color: #F5F5F5;
+	box-shadow: 0.2vw 0.2vh 0.5vh #000000;
+}
+
+.pic-display {
+	position: relative;
+	margin-top: 1vh;
+
+	width: 100vw;
+
+	text-align: center;
+}
+
+/* 图片显示导航 */
+.display-nav {
+	position: relative;
+	margin-bottom: 1vh;
+
+	width: 100vw;
+	height: 5vh;
+
+	background-color: #1E90FF;
+}
+
+/* 导航分类区域 */
+.pic-type {
+	margin: 0 auto;
+	width: 48vw;
+	height: inherit;
+	text-align: center;
+}
+
+.pic-type a {
+	display: inline-block;
+	width: 15vw;
+	height: inherit;
+
+	font-size: 3vh;
+	color: #F5F5F5;
+	line-height: 5vh;
+	text-decoration: none;
+}
+
+.pic-type a:hover {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* 导航管理区域 */
+.to-pic-manage {
+	position: absolute;
+	top: 0;
+	right: 3vw;
+
+	display: inline-block;
+	height: 5vh;
+
+	font-size: 2.7vh;
+	color: #F0F8FF;
+	line-height: 5vh;
+	text-decoration: none;
+}
+
+.to-pic-manage:hover {
+	color: #ffffff;
+}
+
+/* 图片显示主要区域 */
+.pic-contain {
+	position: relative;
+	margin: 0.1vh auto;
+
+	display: block;
+	width: 77vw;
+}
+/* 瀑布流图片样式 */
+.pic-flow {
+	float: left;
+
+	display: inline-block;
+	width: 25vw;
+
+	border-radius: 0.5vw;
+	box-shadow: 0 0 1vw #8FBC8F;
+}
